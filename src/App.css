@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+#header {
+  max-width: 1300px; 
+  margin: auto;
+  margin-left:7vh;
+  margin-top: 55px;
+  font-size: 5vh;
+}
+
+#header button {
+  border-radius: 25px;
+  height: 40px;
+  width: 10vh;
+  margin: 15px 0px 15px 0px;
+  
+}
+
+
+.App {
+  background-color: rgb(250, 250, 250);
+  
+}
+
+#foodTypeHot, #foodTypeCold, #input {
+  max-width: 1300px; 
+  margin: auto;
+  margin-left:10vh;
+  
+}
+
+#input {
+  margin-right: 10vh;
+}
