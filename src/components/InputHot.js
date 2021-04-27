@@ -5,6 +5,13 @@ import makeAnimated from 'react-select/animated'
 import { render } from 'react-dom';
 // import { colourOptions } from '../data';
 
+/*
+
+This is the same as Input.js expect for changed a bit for different HOT options. 
+See the comments on Input.js for a little more guidance, if needed.
+
+*/
+
 
 const hotOptions = [
     { value: 'tester', label: 'Thing' },

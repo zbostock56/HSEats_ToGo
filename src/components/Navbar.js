@@ -8,6 +8,13 @@ import { Typography, Button, Avatar} from 'antd';
 import { UserOutlined, HomeOutlined, CompassOutlined } from '@ant-design/icons';
 import {motion} from 'framer-motion'
 
+
+/*
+
+Below is all the stuff for the "Navbar" at the top of the frontend page. Really its kinda in a mess, but it should work and shouldn't really need to be changed much at all.
+
+*/
+
 const {Title , Text} = Typography
 
 

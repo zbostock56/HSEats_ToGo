@@ -21,6 +21,8 @@
   
 }
 
+/* Below sets the style for the dynamic input boxes */
+
 #foodTypeHot, #foodTypeCold, #input {
   max-width: 1300px; 
   margin: auto;

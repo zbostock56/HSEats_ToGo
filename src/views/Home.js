@@ -8,6 +8,16 @@ import Navbar from '../components/Navbar';
 // import Input from '../components/Input';
 // import InputHot from '../components/InputHot';
 
+/*
+
+Comments:
+Landing Page for students or teachers. Needs to be specifically linked to teachers and students login in App.js.
+
+Commment for the auth folder: shouldn't need to mess with all this. Developed and works for all student and teacher email addresses to login and doesn't have any problems (that I know of)
+
+*/
+
+
 const Home = () => {
     
     const {auth, setAuth} = useContext(AuthContext)

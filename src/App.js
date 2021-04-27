@@ -19,6 +19,13 @@ import './App.css';
 import Inputs from './views/Inputs';
 import Order from './views/Order';
 
+/*
+
+Below does the login verification for the the student or teacher/admin, should not need to be changed.
+
+*/
+
+
 const App = () => {
   const [auth, setAuth] = useState({isAuth: false, loading: true, fetched: false})
 
@@ -66,6 +73,12 @@ const App = () => {
     }
   } 
 
+/*
+
+Under this comment controls the paths. Package is called React Router. Its pretty great stuff. Look up docs for better info.
+
+*/
+
 
   return (
     <AuthContext.Provider value={{auth, setAuth}}>
@@ -84,23 +97,29 @@ const App = () => {
           {/* general routes */}
           {/* <Route exact path="/" component={Splash}/> */}
           <Route exact path="/" component={Home}/>
-          
+
           {auth.user?.role === "teacher"?
             <div>
-              {/* admin routes */}
+              {/* admin routes
+                  This is what page the teacher/admin will land on.
+              */}
             </div>
           :
             <div>
+              
               {auth.user?.role === "student"?
                 <div>
                   {
                   /* student routes */
-                  
+                  /* Student's page should be set up here. For example, set the Route and the path to /(whatever the name is of the path) */
                   }
                 </div>
               :
                 <div>
-                  {/* not logged in routes */}
+                  {/* 
+                  not logged in routes
+                  Maybe add Splash.js to the not logged in route?
+                  */}
                 </div>
               }
             </div>

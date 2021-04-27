@@ -8,6 +8,13 @@ import Loading from '../components/Loading';
 import Input from '../components/Input';
 import InputHot from '../components/InputHot';
 
+/*
+
+This page was for when a student inputs food choices they would like for their order.
+This data would need to be translated to the backend so that the order can be seen by admins. 
+
+*/
+
 const Inputs = () => {
     
     const {auth, setAuth} = useContext(AuthContext)

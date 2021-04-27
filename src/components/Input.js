@@ -6,6 +6,14 @@ import { render } from 'react-dom';
 // import { colourOptions } from '../data';
 
 
+/*
+
+Component for COLD Input (the dynamic input boxes)
+Options for the input box is named "coldOptions"
+
+*/
+
+
 const coldOptions = [
     { value: 'yogurtParfait', label: 'Yogurt Parfait' },
     { value: 'test1', label: 'Test Food' },
@@ -25,6 +33,8 @@ const coldOptions = [
 
   render(){
     const {selectedOption} = this.state;
+
+{/* Below is the Select package "settings", more or less this is what the Select package will use when it is displaying the component */}
 
     return(
       <Select
